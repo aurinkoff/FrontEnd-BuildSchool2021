@@ -274,14 +274,14 @@ text-align: justify;
 }
 .bag a{
   width: 695px;height: 430px;
-  background-image: url("/assets/asset 25.png");
+  background-image: url("../0322hw/assets/asset 25.png");
   position: absolute;
   top:80.4px;
   left: 295px;
   z-index: -1;
 }
 .bag a.a2.aeven{
-  background-image: url("/assets/asset 29.png");
+  background-image: url("../0322hw/assets/asset 29.png");
   width: 695px;height: 430px;
   position: absolute;
   top:80.4px;
@@ -289,7 +289,7 @@ text-align: justify;
   z-index: -1;
 }
 .bag a.a4.aeven{
-  background-image: url("/assets/asset 35.png");
+  background-image: url("../0322hw/assets/asset 35.png");
   width: 695px;height: 430px;
   position: absolute;
   top:80.4px;
@@ -307,7 +307,7 @@ text-align: justify;
 .test .mainArea{
   width: 695px;
   height: 430px;
-  background-image: url("/assets/asset 25.png");
+  background-image: url("../0322hw/assets/asset 25.png");
 }
 .test .mainArea{
     position: relative;
