@@ -9,8 +9,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap');
 
-        /* 語意?
-怎麼切 */
         * {
             margin: 0;
             padding: 0;
@@ -259,29 +257,87 @@
         }
 
         .fifthpage {
-            height: 799px;
-            padding: 20px 0 110px;
+            height: 779px;
+            padding: 20px 0 90px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .fifthpage_row .img {
+            width: 20%;
+        }
+
+        .fifthpage_row img {
+            width: 80%;
+        }
+
+        .fifthpage_row {
+            display: flex;
+            width: 1200px;
+            justify-content: center;
+        }
+
+        .fifthpage .listLeft {
+            width: 33.333%;
+            height: 639px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+
+        .fifthpage .list {
+            order: 4;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: space-around;
+            width: 33.333%;
+            height: 639px;
 
         }
 
-        .fifthpage_all {
-            width: 1110px;
-            height: 669px;
+        .fifthpage_row .listleft {
+            display: flex;
+
         }
-        .fifthpage_all_1{
-            width: 370px;
+
+        .fifthpage_row .listLeft .text {
+            text-align: right;
+            width: 80%;
+
         }
-        .fifthpage_all_2{
-            width: 370px;
+
+        .fifthpage_row .list .text {
+
+            width: 80%;
+
         }
-        .fifthpage_all_3{
-            width: 370px;
+
+        .fifthpage .listright_1 {
+            display: flex;
         }
+
+        .fifthpage_row .pic {
+            order: 1;
+            width: 33.333%;
+            display: flex;
+            height: 640px;
+            justify-content: center;
+        }
+
+        .fifthpage_row .list,
+        .fifthpage_row .listleft {
+            width: 400px
+        }
+
+
         .sixthpage {
             height: 214.4px;
             padding: 120px 0px 115px 0px;
             background-attachment: fixed;
-            background-color: pink;
+            list-style: none;
+            background-image: url("pic/asset 50.jpeg");
         }
 
         .sixthpagerowclass {
@@ -340,6 +396,10 @@
             height: 374.4px;
         }
 
+        .seventhpagerowleftlist ul {
+            list-style-type: disc;
+        }
+
         .seventhpagerowwleft h3 {
             line-height: 1.56;
             width: 570px;
@@ -362,6 +422,16 @@
         .seventhpagerowleftlist {
             width: 512.4px;
             height: 160.4px;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px 0;
+            justify-content: space-around;
+        }
+
+        .seventhpage li {
+            list-style: disc;
+            list-style-position: inside;
         }
 
         .seventhpagerowwright {
@@ -372,23 +442,27 @@
 
         .eighthpage {
             background-color: #f7f7f7;
-            display: block;
+            display: flex;
             height: 309.8px;
+            justify-content: center;
+            height: 559.46px;
+            align-content: center;
             padding: 95px 0px 0px 0px;
         }
 
         .eighthpageclass {
-            height: 309.8px;
+            height: 100px;
             display: flex;
-            justify-items: center;
-            justify-content: center;
-
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
         }
 
         .eighthpageclass section {
             height: 79.6px;
             width: 820px;
             margin: 0px;
+            padding: 15px 0;
         }
 
         .eighthpageclass section h3 {
@@ -403,7 +477,82 @@
             color: #c2b697;
         }
 
-        .eighthpageclassnav .nav {}
+        .eighthpageclassnav .nav {
+            height: 67.6px;
+            width: 1536px;
+            text-align: center;
+        }
+
+        .eighthpageclassnav .nav a {
+            text-decoration-line: none;
+            color: #899296;
+            padding: 5px 20px;
+        }
+
+        .eighthpageclassnav .nav a:hover {
+            color: #C2B697;
+        }
+
+        .eighthpagepic {
+            width: 100%;
+            display: flex;
+
+        }
+
+        .eighthpagepic img {
+            width: 25%;
+        }
+
+        .flexLeft {
+            display: flex;
+        }
+
+        .ninth {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 225px;
+            padding: 70px 0px;
+
+        }
+
+        .ninth h3 {
+            font-size: 48px;
+            width: 820px;
+            height: 56px;
+            padding: 0 0 20px 0;
+        }
+
+        .ninth span {
+            color: #c2b697;
+        }
+
+        .tenth {
+            height: 630px;
+        }
+
+        .tenthrow {
+            height: 630px;
+
+        }
+
+        .tenthrow {
+
+        }
+
+        .eleventhpage {
+            background-color: #c2b697;
+            padding: 45px 0px 50px 0px;
+            height: 185px;
+            height: 265.6px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .eleventhpage h3 {
+            font-size: 36px;
+            padding: 0 0 15px 0;
+        }
     </style>
 </head>
 
@@ -491,29 +640,74 @@
         </div>
     </div>
     <section class="fifthpage">
-        <div class="fifthpage_all">
-            <div class="fifthpage_all_1">
+        <div class="fifthpage_row">
+            <div class="pic"><img src="pic\asset 1.png" alt=""></div>
 
+            <div class="listLeft">
+                <div class="listleft_1 flexLeft">
+                    <div class="text">
+                        <span>VISIT<p> Our values and ideals are our decision making guide.</p>
+                    </div>
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    </span>
+                </div>
+                <div class="listleft_1 flexLeft">
+                    <div class="text">
+                        <span>VISIT<p> Our values and ideals are our decision making guide.</p>
+                    </div>
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    </span>
+                </div>
+                <div class="listleft_1 flexLeft">
+                    <div class="text">
+                        <span>VISIT<p> Our values and ideals are our decision making guide.</p>
+                    </div>
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    </span>
+                </div>
             </div>
-            <div class="fifthpage_all_2">
+            <div class="list">
+                <div class="listright_1 ">
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>ORGANIZE<p> Beautiful products to help people with creative ideas succeed</p>
+                    </div>
 
-            </div>
-            <div class="fifthpage_all_3">
+                    </span>
+                </div>
+                <div class="listright_1">
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>ORGANIZE<p> Beautiful products to help people with creative ideas succeed</p>
+                    </div>
 
+                    </span>
+                </div>
+                <div class="listright_1">
+                    <div class="img">
+                        <img src="pic\icon1.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>ORGANIZE<p> Beautiful products to help people with creative ideas succeed</p>
+                    </div>
+
+                    </span>
+                </div>
             </div>
         </div>
     </section>
     <section class="sixthpage">
-        <div class="sixthpagerowclass">
-            <div class="sixthpagerowclass1">
-                <div class="sixthpagerowclass1--1">
-                    <div class="sixthpagerowclass1-1">
-                        <div class="sixthpagerowclass1-1-pic">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </section>
     <section class="seventhpage">
         <div class="seventhpagerow">
@@ -554,9 +748,36 @@
                     <a href="#">STRATEGY & MARKETING</a>
                 </nav>
             </div>
+            <div class="eighthpagepic">
+                <img src="pic\asset 2.jpeg" alt="">
+                <img src="pic\asset 3.jpeg" alt="">
+                <img src="pic\asset 4.jpeg" alt="">
+                <img src="pic\asset 5.jpeg" alt="">
+            </div>
 
         </div>
     </section>
+    <div class="ninth">
+        <div class="text">
+            <h3>Clients<span> Testimonials</span></h3>
+        </div>
+    </div>
+    <section class="tenth">
+        <div class="tenthrow">
+
+        </div>
+    </section>
+    <div class="eleventhpage">
+        <div class="text">
+            <h3>Stay Always In Touch</h3>
+
+        </div>
+        <div class="but">
+            <button type="button" style="width:200px;height:50px;font-size:12px;">SUBSCRIBE</button>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
