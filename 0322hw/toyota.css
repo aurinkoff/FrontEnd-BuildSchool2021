@@ -226,6 +226,19 @@ text-align: justify;
   margin: 0 0 0 100px;
   background-color: #eeeeee;
 }
+.sg
+{
+  display: flex;
+  align-items:center;
+  
+}
+.sg .Line{
+  background-color: red;
+  width:400px;
+  height: 4px;
+  
+  margin: 0 0 0 60px;
+}
 .bottomeven{
   margin:  0 0 0 27rem ;
 }
