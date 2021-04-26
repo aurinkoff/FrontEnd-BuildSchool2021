@@ -64,7 +64,8 @@
             color: black;
             background-color: white !important;
         }
-        .modal-body p{
+
+        .modal-body p {
             color: black;
         }
     </style>
@@ -102,11 +103,11 @@
                 </div>
                 <div class="modal-body">
                     <img id="LolImage">
-                    <p id="description1" class="text-primary"></p> 
-                    <p id="description2" class="text-primary"></p> 
-                    <p id="description3" class="text-primary"></p> 
-                    <p id="description4" class="text-primary"></p> 
-                    <p id="description5" class="text-primary"></p> 
+                    <p id="description1" class="text-primary"></p>
+                    <p id="description2" class="text-primary"></p>
+                    <p id="description3" class="text-primary"></p>
+                    <p id="description4" class="text-primary"></p>
+                    <p id="description5" class="text-primary"></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -159,7 +160,7 @@
                     modal.querySelector('#description1').innerText = `HP:${Allchampion[hero[index]].stats.hp}`;
                     modal.querySelector('#description2').innerText = `Move Speed:${Allchampion[hero[index]].stats.movespeed}`;
                     modal.querySelector('#description3').innerText = `Armor:${Allchampion[hero[index]].stats.armor}`;
-                    modal.querySelector('#description4').innerText =`Spell Block: ${Allchampion[hero[index]].stats.spellblock}`;
+                    modal.querySelector('#description4').innerText = `Spell Block: ${Allchampion[hero[index]].stats.spellblock}`;
                     modal.querySelector('#description5').innerText = `AttackRange${Allchampion[hero[index]].stats.attackspeed}`;
 
 
